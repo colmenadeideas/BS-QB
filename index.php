@@ -2,6 +2,7 @@
 	
 	error_reporting(E_ALL);
 	
+	require_once ('includes/config/local.php'); //if Production Site change to server.php
 	require_once ('includes/config/config.php');
 	
 	
@@ -9,11 +10,9 @@
 			
 		require ( LIBS . $class. '.php');
 		
-		//echo "<i> Loaded: " . $class . ' Class</i></br>';
-		//Todo: Verificar si el file existe y lanzar error si llama a una clase que no existe
 	}
-	require ( LIBS . 'functions.php');
-	require ( LANG . DEFAULT_LANGUAGE .'.php');
+	require ( LIBS . 'Functions.php');
+	require ( LANG . DEFAULT_LANGUAGE .'.php');	
 	
 	$app = new Bootstrap();
 	
