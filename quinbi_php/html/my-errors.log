@@ -1,0 +1,607 @@
+[25-Sep-2019 13:51:26 America/Caracas] PHP Warning:  Illegal string offset 'empleados' in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 43
+[25-Sep-2019 13:51:26 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 43
+[25-Sep-2019 13:51:26 America/Caracas] PHP Warning:  Illegal string offset 'empleados' in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[25-Sep-2019 15:19:51 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:19:51 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:39
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(23): Api->employee('insert', '[objectObject]')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '[objectObject]')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:21:26 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:21:26 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:39
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(23): Api->employee('insert', '[objectObject]')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '[objectObject]')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:27:45 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:27:45 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:39
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(23): Api->employee('insert', '[objectObject]')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '[objectObject]')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:28:38 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:28:39 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:39
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(23): Api->employee('insert', '[objectObject]')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '[objectObject]')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:52:00 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:52:00 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:39
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(23): Api->employee('insert', '[objectObject]')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '[objectObject]')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:53:37 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:53:37 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:39
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(23): Api->employee('insert', '[objectObject]')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '[objectObject]')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 39
+[25-Sep-2019 15:56:44 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 15:56:45 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(23): Api->employee('insert', '[objectObject]')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '[objectObject]')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 15:58:18 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 15:58:18 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(23): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 15:58:37 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 15:58:37 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(23): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:01:05 America/Caracas] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 25
+[25-Sep-2019 16:01:08 America/Caracas] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 25
+[25-Sep-2019 16:01:08 America/Caracas] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 25
+[25-Sep-2019 16:01:09 America/Caracas] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 25
+[25-Sep-2019 16:01:10 America/Caracas] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 25
+[25-Sep-2019 16:01:10 America/Caracas] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 25
+[25-Sep-2019 16:01:11 America/Caracas] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 25
+[25-Sep-2019 16:01:11 America/Caracas] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 25
+[25-Sep-2019 16:01:19 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:01:19 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:32 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:32 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:33 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:33 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:34 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:34 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:35 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:35 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:35 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:35 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:37 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:37 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:48 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:02:48 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', '{"cedula":"2035...')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:10 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:10 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:46 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:46 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:47 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:47 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:48 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:48 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:49 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:49 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:49 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:49 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:49 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:49 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:49 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:03:49 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:06:06 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:06:06 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:06:08 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:06:08 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:06:09 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:06:09 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:07:05 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:07:05 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:07:08 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:07:08 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:07:33 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:07:33 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:40
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(25): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 40
+[25-Sep-2019 16:09:44 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:09:44 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(26): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:09:59 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:09:59 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(26): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:10:02 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:10:02 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(26): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:10:10 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:10:10 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(26): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:11:08 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:11:08 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(26): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:15:35 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:15:35 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(33): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:15:40 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:15:40 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(33): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:16:22 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:16:22 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(34): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:16:29 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:16:29 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(34): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:21:15 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:21:15 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(40): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:21:24 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:21:24 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(40): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:28:21 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:28:21 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(40): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:28:29 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:28:29 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(40): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:29:25 America/Caracas] PHP Notice:  Undefined property: Api::$helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:29:25 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(40): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:30:01 America/Caracas] PHP Notice:  Undefined property: Api::$Helper in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[25-Sep-2019 16:30:01 America/Caracas] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php:41
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php(40): Api->employee('insert', Array)
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(121): apiController->employee('insert', '{"cedula":"2035...')
+#2 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 41
+[26-Sep-2019 09:20:20 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:20:20 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:20:20 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:20:20 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:20:20 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:21:21 America/Caracas] PHP Fatal error:  Uncaught Error: Call to undefined function scape_value() in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php:47
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(115): apiController->employee1('insert')
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#2 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#3 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 47
+[26-Sep-2019 09:24:11 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:24:11 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:24:11 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:24:11 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:24:11 America/Caracas] PHP Notice:  Undefined variable: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:25:12 America/Caracas] PHP Notice:  Undefined offset: 0 in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:25:47 America/Caracas] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:26:27 America/Caracas] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:27:05 America/Caracas] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:28:08 America/Caracas] PHP Notice:  Undefined index: cedula in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:28:38 America/Caracas] PHP Notice:  Undefined index: cedula in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:28:38 America/Caracas] PHP Notice:  Undefined index: nombre in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:28:38 America/Caracas] PHP Notice:  Undefined index: apellido in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:28:38 America/Caracas] PHP Notice:  Undefined index: email in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:28:38 America/Caracas] PHP Notice:  Undefined index: fecha_ingreso in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:31:10 America/Caracas] PHP Notice:  Undefined index: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:31:36 America/Caracas] PHP Notice:  Undefined index: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:31:44 America/Caracas] PHP Notice:  Undefined index: empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:32:14 America/Caracas] PHP Notice:  Undefined index: cedula in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:32:14 America/Caracas] PHP Notice:  Undefined index: nombre in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:32:14 America/Caracas] PHP Notice:  Undefined index: apellido in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:32:14 America/Caracas] PHP Notice:  Undefined index: email in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:32:14 America/Caracas] PHP Notice:  Undefined index: fecha_ingreso in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:34:38 America/Caracas] PHP Notice:  Undefined index: cedula in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:34:38 America/Caracas] PHP Notice:  Undefined index: nombre in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:34:38 America/Caracas] PHP Notice:  Undefined index: apellido in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:34:38 America/Caracas] PHP Notice:  Undefined index: email in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:34:38 America/Caracas] PHP Notice:  Undefined index: fecha_ingreso in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:36:28 America/Caracas] PHP Notice:  Undefined index: cedula in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:36:28 America/Caracas] PHP Notice:  Undefined index: nombre in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:36:28 America/Caracas] PHP Notice:  Undefined index: apellido in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:36:28 America/Caracas] PHP Notice:  Undefined index: email in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:36:28 America/Caracas] PHP Notice:  Undefined index: fecha_ingreso in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:36:57 America/Caracas] PHP Notice:  Undefined index: cedula in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:36:57 America/Caracas] PHP Notice:  Undefined index: nombre in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:36:57 America/Caracas] PHP Notice:  Undefined index: apellido in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:36:57 America/Caracas] PHP Notice:  Undefined index: email in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:36:57 America/Caracas] PHP Notice:  Undefined index: fecha_ingreso in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:38:00 America/Caracas] PHP Notice:  Undefined index: cedula in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:38:00 America/Caracas] PHP Notice:  Undefined index: nombre in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:38:00 America/Caracas] PHP Notice:  Undefined index: apellido in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:38:00 America/Caracas] PHP Notice:  Undefined index: email in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:38:00 America/Caracas] PHP Notice:  Undefined index: fecha_ingreso in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:38:26 America/Caracas] PHP Notice:  Undefined index: cedula in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:38:26 America/Caracas] PHP Notice:  Undefined index: nombre in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:38:26 America/Caracas] PHP Notice:  Undefined index: apellido in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:38:26 America/Caracas] PHP Notice:  Undefined index: email in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:38:26 America/Caracas] PHP Notice:  Undefined index: fecha_ingreso in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:39:01 America/Caracas] PHP Notice:  Undefined index: cedula in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 51
+[26-Sep-2019 09:39:01 America/Caracas] PHP Notice:  Undefined index: nombre in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 52
+[26-Sep-2019 09:39:01 America/Caracas] PHP Notice:  Undefined index: apellido in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[26-Sep-2019 09:39:01 America/Caracas] PHP Notice:  Undefined index: email in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[26-Sep-2019 09:39:01 America/Caracas] PHP Notice:  Undefined index: fecha_ingreso in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 60
+[26-Sep-2019 09:53:57 America/Caracas] PHP Parse error:  syntax error, unexpected ')' in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:54:21 America/Caracas] PHP Notice:  Undefined index: new_empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:54:35 America/Caracas] PHP Notice:  Undefined index: new_empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 09:55:51 America/Caracas] PHP Notice:  Undefined index: new_empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[26-Sep-2019 10:23:42 America/Caracas] PHP Notice:  Undefined index: new_empleado in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 46
+[27-Sep-2019 08:27:13 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 09:43:51 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 09:43:57 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 09:52:39 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 09:53:46 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 09:55:16 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 09:57:01 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 09:57:20 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 09:59:36 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:00:01 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:08:53 America/Caracas] PHP Notice:  Undefined variable: id in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 44
+[30-Sep-2019 10:09:19 America/Caracas] PHP Notice:  Undefined variable: id in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 44
+[30-Sep-2019 10:42:22 America/Caracas] PHP Notice:  Undefined variable: empleados in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 24
+[30-Sep-2019 10:43:26 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:44:32 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:46:44 America/Caracas] PHP Warning:  Illegal string offset 'id' in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 44
+[30-Sep-2019 10:46:44 America/Caracas] PHP Notice:  Uninitialized string offset: 0 in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 44
+[30-Sep-2019 10:46:55 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:47:06 America/Caracas] PHP Warning:  Illegal string offset 'id' in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 44
+[30-Sep-2019 10:47:06 America/Caracas] PHP Notice:  Uninitialized string offset: 0 in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 44
+[30-Sep-2019 10:47:12 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:47:21 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:47:59 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:48:04 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:48:57 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:49:25 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:51:44 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:51:46 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:52:00 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:52:04 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:52:31 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 46
+[30-Sep-2019 10:52:33 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 46
+[30-Sep-2019 10:52:34 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 46
+[30-Sep-2019 10:53:02 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:53:04 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:53:13 America/Caracas] PHP Warning:  Illegal string offset 'id' in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 24
+[30-Sep-2019 10:53:13 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:53:19 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:54:02 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 10:54:03 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[30-Sep-2019 11:07:48 America/Caracas] PHP Notice:  Undefined variable: _PUT in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[30-Sep-2019 11:07:48 America/Caracas] PHP Notice:  Undefined variable: _PUT in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[30-Sep-2019 11:13:42 America/Caracas] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 54
+[01-Oct-2019 08:26:33 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 08:26:33 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 09:06:58 America/Caracas] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 09:06:58 America/Caracas] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 09:07:18 America/Caracas] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 09:09:11 America/Caracas] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 09:14:34 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 09:14:34 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 09:14:35 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 09:14:35 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 10:22:50 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[01-Oct-2019 10:22:50 America/Caracas] PHP Notice:  Undefined variable: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[01-Oct-2019 10:22:50 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[01-Oct-2019 10:22:50 America/Caracas] PHP Notice:  Undefined variable: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[01-Oct-2019 10:24:11 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[01-Oct-2019 10:24:19 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[01-Oct-2019 10:24:45 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[01-Oct-2019 10:24:57 America/Caracas] PHP Notice:  Array to string conversion in /Users/mtrx/BESIGN/quinbi/includes/libs/Api.php on line 45
+[01-Oct-2019 10:26:25 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:27:42 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:28:24 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:28:30 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:32:05 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:32:44 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:33:52 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:33:57 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:34:21 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:34:46 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:35:26 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:36:02 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:36:55 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 10:57:26 America/Caracas] PHP Notice:  Undefined variable: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 47
+[01-Oct-2019 10:58:45 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/quinbi/includes/libs/DB.php on line 328
+[01-Oct-2019 11:05:41 America/Caracas] PHP Notice:  Undefined variable: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 47
+[01-Oct-2019 11:11:32 America/Caracas] PHP Notice:  Undefined variable: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 47
+[01-Oct-2019 14:12:49 America/Caracas] PHP Notice:  Undefined variable: data in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[01-Oct-2019 14:12:49 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[01-Oct-2019 14:30:08 America/Caracas] PHP Notice:  Undefined variable: data in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[01-Oct-2019 14:30:08 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 57
+[01-Oct-2019 14:30:59 America/Caracas] PHP Notice:  Undefined variable: data in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 14:30:59 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 59
+[01-Oct-2019 14:31:00 America/Caracas] PHP Notice:  Undefined variable: data in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 55
+[01-Oct-2019 14:31:00 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 59
+[01-Oct-2019 14:36:28 America/Caracas] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apiController::employee(), 0 passed in /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php on line 108 and exactly 1 expected in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php:26
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(108): apiController->employee()
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#2 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#3 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 26
+[01-Oct-2019 14:36:46 America/Caracas] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apiController::employee(), 0 passed in /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php on line 108 and exactly 1 expected in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php:26
+Stack trace:
+#0 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(108): apiController->employee()
+#1 /Users/mtrx/BESIGN/quinbi/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#2 /Users/mtrx/BESIGN/quinbi/html/index.php(34): Bootstrap->init()
+#3 {main}
+  thrown in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 26
+[01-Oct-2019 14:37:40 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[01-Oct-2019 14:37:40 America/Caracas] PHP Notice:  Undefined index: rowEdit in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 31
+[01-Oct-2019 14:37:40 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[01-Oct-2019 14:47:04 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[01-Oct-2019 14:47:05 America/Caracas] PHP Notice:  Undefined index: rowEdit in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 31
+[01-Oct-2019 14:47:05 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[01-Oct-2019 14:52:41 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[01-Oct-2019 14:52:41 America/Caracas] PHP Notice:  Undefined index: emp in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 31
+[01-Oct-2019 14:52:41 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[01-Oct-2019 14:56:03 America/Caracas] PHP Notice:  Undefined index: emp in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 32
+[01-Oct-2019 14:59:04 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[01-Oct-2019 14:59:04 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
