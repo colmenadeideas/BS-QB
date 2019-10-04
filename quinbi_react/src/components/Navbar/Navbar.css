@@ -1,0 +1,23 @@
+.navbar {
+    background: #212121 !important;
+    box-shadow: 0px 0px 10px 0px;
+}
+.logo {
+    color: #FFF;
+}
+.usuario a {
+    color: #FFF !important;
+}
+.nav-link {
+    color: #FFF !important;
+}
+.dropdown-menu{
+    text-align: center;
+}
+button {
+    background: none;
+    border: none;
+}
+button:focus {
+    outline: none;
+}

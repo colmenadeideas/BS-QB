@@ -1,0 +1,289 @@
+body {
+  background: #ebb300;
+}
+table {
+    width: 90%;
+    margin: auto;
+}
+th {
+  padding: 1rem;
+}
+td {
+    padding: 10px;
+}
+
+/* Maestro */
+.maestro,
+.empleado {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.card {
+  border: none !important;
+}
+.card-maestro,
+.card-empleado {
+  background: #FFF;
+  border-radius: 30px;
+}
+.card-header {
+  background-color: #e64c3b;
+  border: none;
+  border-radius: 30px 30px 0 0 !important;
+}
+.card-header h2 {
+  margin: auto 0 auto 30px;
+  padding: 10px;
+  font-weight: 100;
+  color: #FFF;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+.card-table {
+  display: flex;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.editar {
+  background: #bdc3c7;
+  color: #FFF;
+  padding: 5px;
+}
+.ver {
+  background: #3598da;
+  color: #FFF;  
+  padding: 5px;
+  margin-left: 5px;
+}
+.ml-auto {
+  margin: auto 50px;
+}
+.bg-popup {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #0000004a;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.popup {
+  background: #FFF;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px;
+}
+hr.col-12 {
+  flex: 0 1 100% !important;
+}
+.close-icon {
+  margin: 8px 20px -10px auto;
+}
+.add {
+  margin-bottom: 30px;
+}
+form.row input {
+  margin: 10px 10px 20px 10px;
+}
+.input1 {
+  margin-bottom: 10px !important;
+}
+.card-collapse {
+  background: #e64c3b;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #FFF;
+}
+.card:first-child {
+  border-radius: 30px 30px 0 0;
+}
+.card:last-child {
+  border-radius: 0 0 30px 30px;
+  border-bottom: none;
+}
+.card-body {
+  border: 1px solid #e64c3b;
+  border-top: none;
+}
+.card-body-last{
+  border-radius: 0 0 30px 30px;
+}
+.btn-link {
+  color: #FFF;
+  transition: color .3s;
+}
+.btn-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+.btn-link:focus {
+  text-decoration: none;
+}
+.edit-button {
+  background: #ebb300;
+  margin-top: 10px;
+  color: #FFF;
+  transition: color .3s;
+}
+.edit-button:hover {
+  color: #000;
+}
+.done-button {
+  background: #28a745;
+  margin: 10px 0 0 10px;
+  color: #FFF;
+  transition: color .3s;
+}
+.done-button:hover {
+  color: #000;
+}
+.check p {
+  display: inline-block;
+}
+span.autor {
+  background: #efad4e;
+  padding: 5px;
+  color: #FFF;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.espacio {
+  margin-right: 10px;
+}
+.add-campo {
+  background: #3598da;
+  margin-bottom: 10px;
+  color: #FFF;
+  transition: background .3s;
+}
+.add-campo:hover {
+  background: #237db9;
+  color: #FFF;
+}
+/* Fin Maestro */
+
+/* Nomina */
+.card:last-child {
+  border-radius: 0 0 30px 30px;
+  border-bottom: none;
+}
+.circular {
+  border-radius: 50%;
+  background: #e64c3b;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px 10px 0;
+}
+.empleado {
+  display: flex;
+  width: 100%;
+}
+.empleado h4 {
+  margin-bottom: 10px;
+}
+.check-changes {
+  margin: auto
+}
+.card-ultimo {
+  border-radius: 0 0 30px 30px;
+}
+.lista {
+  width: 50%;
+  list-style-position: inside;
+  margin: 10px auto;
+  text-align: start;
+}
+.react-calendar {
+  margin: auto;
+}
+.checkboxes {
+  margin: auto;
+}
+.table td, .table th {
+  vertical-align: middle;
+}
+.btn-nomina {
+  background: #3598da;
+  color: #FFF;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: color .3s;
+}
+.btn-nomina:hover {
+  color: #000;
+}
+.nomina-text {
+  color: #666;
+}
+h3.nomina-text {
+  font-weight: bold;
+}
+span.fecha {
+  color: #34495e;
+}
+.regresar {
+  background: #e64c3b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #FFF;
+  margin-right: 5px;
+  transition: color .3s;
+}
+.regresar:hover {
+  color: #000;
+}
+.imprimir {
+  background: #ebb300;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #FFF;
+  transition: color .3s;
+}
+.imprimir:hover {
+  color: #000;
+}
+.comprobantes {
+  margin-bottom: 15px;
+}
+/* Fin Nomina */
+
+
+/* Empleado */
+.table-btn {
+    display: flex;
+}
+.empleado-ficha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*End empleado*/
+
+/* Editable */
+* > div.editable-container {
+    display: inline;
+}
+/*End Editable*/
+
+
+/* Animaciones */
+.fadein {
+  animation-duration: .3s;
+  animation-name: fadein;
+}
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+/* Fin Animaciones */
