@@ -53,16 +53,7 @@
             $this->api->employee($action, $emp, $emp['id']);
         }
         
-        public function employeeUpdate() {
-            //header('Access-Control-Allow-Methods: POST, PUT, GET, OPTIONS');
-            header('Access-Control-Allow-Origin: http://localhost:3000');
-            header('Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With');
 
-            $emp = json_decode(file_get_contents('php://input'), true);
-            $emp = $emp['rowEdit'];
-
-            $this->api->employee('update', $emp, $emp['id']);
-        }
 
 		public function insertClientByCookie($terms) {
 			header('Access-Control-Allow-Origin: http://localhost:3000');

@@ -17,7 +17,7 @@ class Empleados extends Component {
     }
 
     componentDidMount() {
-        let url = `http://localhost/quinbi_php/html/api/getEmployees/`
+        let url = `http://localhost/BS-QB/quinbi_php/html/api/getEmployees/`
         axios.get(url)
             .then(res => {
                 this.setState({ 
@@ -32,18 +32,7 @@ class Empleados extends Component {
             add: true
         })
     }
-    editarEmpleado = (row) => {
-        if (!this.state.editar) {
-            this.setState({
-                editRow: row,
-                editar: true
-            })
-        } else {
-            this.setState({
-                editar: false
-            })
-        }
-    }
+
     verEmpleado = (row) => {
         if (!this.state.ver) {
             this.setState({
@@ -57,14 +46,14 @@ class Empleados extends Component {
         }
     }
 
-    empleado = (empleado) => { 
+    editarEmpleado = (empleado) => { 
         if (empleado && empleado !== "true") {
             let row = ''
             this.state.rows.filter(emp => (
                 (emp.id === empleado.id) ? row = empleado : ''//JSON.stringify(empleado) : ''        
             ))
-            var indice = row.id
-            let url = `http://localhost/quinbi_php/html/api/employee/update`//+encodeURIComponent(row)
+
+            let url = `http://localhost/BS-QB/quinbi_php/html/api/employee/update`//+encodeURIComponent(row)
             console.log(row)
             //console.log(url);
 
@@ -72,8 +61,13 @@ class Empleados extends Component {
                 .then(res => {
                     console.log(res)
                     if (res.data === 1) {
+                        let indice = 0
                         var rows = [...this.state.rows]
+                        rows.map(function(emp, i){
+                            emp.id === row.id ? indice = i : console.log("nada");
+                        })
                         rows[indice] = row
+
                         this.setState({
                             rows
                         }, () => {
@@ -90,7 +84,7 @@ class Empleados extends Component {
 
     done = (empleado) => {
         let row = empleado
-        let url = `http://localhost/quinbi_php/html/api/employee/insert`
+        let url = `http://localhost/BS-QB/quinbi_php/html/api/employee/insert`
         console.log(url);
         axios.post(url, {row})
             .then(res => {
@@ -140,7 +134,6 @@ class Empleados extends Component {
                                 {
                                     <EmpleadosList
                                         rows={this.state.rows}
-                                        editarEmpleado={this.editarEmpleado}
                                         verEmpleado={this.verEmpleado}
                                     /> 
                                 }
@@ -157,19 +150,10 @@ class Empleados extends Component {
                         :   ""
                 }
                 {
-                    (this.state.editar) 
-                        ?   <EmpleadoEdit 
-                                row={this.state.editRow}
-                                editarEmpleado={this.editarEmpleado}
-                                empleado={this.empleado}
-                            />
-                        :   ""
-                }
-                {
                     (this.state.ver) 
                         ?   <EmpleadoShow 
                                 row={this.state.verRow}
-                                verEmpleado={this.verEmpleado}
+                                editarEmpleado={this.editarEmpleado}
                                 closePopup={this.verEmpleado}
                             />
                         :   ""

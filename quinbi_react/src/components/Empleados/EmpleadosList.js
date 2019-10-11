@@ -1,9 +1,7 @@
 import React from 'react';
 
-const EmpleadosList = ({rows, editarEmpleado, verEmpleado}) => {
-    
-    //const mensaje = Object.keys(rows).length === 0 ? 'No hay empleados registrados' : ''
-    //console.log(rows)
+const EmpleadosList = ({rows, verEmpleado}) => {
+
     return (  
         rows.map((empleado, key) => (
             <tr key={key}>
@@ -13,12 +11,6 @@ const EmpleadosList = ({rows, editarEmpleado, verEmpleado}) => {
                 <td>{empleado.fecha_ingreso}</td> 
                 <td>{empleado.email}</td>
                 <td className="table-btn">
-                    <button 
-                        onClick={() => editarEmpleado(empleado)} 
-                        className="btn editar">
-                        <i className="fas fa-pencil-alt"></i> Editar
-                    </button>
-
                     <button 
                         onClick={() => verEmpleado(empleado)} 
                         className="btn ver">

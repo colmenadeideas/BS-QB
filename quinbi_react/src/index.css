@@ -77,6 +77,7 @@ td {
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px;
 }
+
 hr.col-12 {
   flex: 0 1 100% !important;
 }
@@ -264,11 +265,25 @@ span.fecha {
     flex-direction: column;
     justify-content: center;
 }
+.close-icon > i {
+    cursor: pointer;
+}
 /*End empleado*/
 
 /* Editable */
 * > div.editable-container {
     display: inline;
+}
+.text-muted a {
+    color: #6c757d!important;
+}
+a {
+    color: #000;
+    border-bottom: #6c757d 2px dotted;
+}
+a:hover {
+    color: #000;
+    border-bottom: #6c757d 1px solid;
 }
 /*End Editable*/
 

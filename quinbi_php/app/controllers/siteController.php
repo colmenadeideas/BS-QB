@@ -16,7 +16,7 @@
 
 			$this->view->content_view = 'search';
 			$this->view->buildpage('index');						 
-		}
+        }
 
 
 		public function detail($id) {

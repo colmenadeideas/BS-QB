@@ -30,7 +30,6 @@ class Api extends ApiQuery {
 			
 			Registration::process('register',$array_data) ;
 			
-
     }
     
     public function employee($action, $data='', $id='') {
@@ -51,6 +50,24 @@ class Api extends ApiQuery {
                 echo json_encode($response);
                 break;
         }
+    }
+
+    public function editinline () {
+			
+        $pk = escape_value($_POST['pk']);
+        $value = escape_value($_POST['value']);
+        
+        $parts = explode( '-', $pk );
+        $tablename = $parts[0];
+        $fieldname = $parts[1];
+        $id = $parts[2];
+        
+        $arrayModificacion = array();
+                                
+        $arrayModificacion[$fieldname] = $value;
+        
+        $insert = $this->helper->update($tablename, $id, $arrayModificacion);
+        print_r($insert);	
     }
 	
 	

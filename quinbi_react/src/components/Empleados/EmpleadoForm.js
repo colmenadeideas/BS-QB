@@ -18,7 +18,7 @@ class EmpleadoAddForm extends Component {
 
     readData = (e) => {
         this.setState({
-            ...this.state.empleado,
+            ...this.state,
             [e.target.name] : e.target.value
         })
     }

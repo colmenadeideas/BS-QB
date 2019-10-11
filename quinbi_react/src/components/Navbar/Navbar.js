@@ -5,7 +5,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (  
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-black bg-black">
             <div className="col-1 logo">Quinbi</div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

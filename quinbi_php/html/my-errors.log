@@ -605,3 +605,46 @@ Stack trace:
 [01-Oct-2019 14:56:03 America/Caracas] PHP Notice:  Undefined index: emp in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 32
 [01-Oct-2019 14:59:04 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
 [01-Oct-2019 14:59:04 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/quinbi/app/controllers/apiController.php on line 53
+[10-Oct-2019 08:47:33 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 08:47:46 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 08:48:18 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 08:56:52 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 08:58:02 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 08:58:46 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 10:48:04 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 10:55:40 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 10:56:21 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 14:02:23 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 14:24:43 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 14:24:43 America/Caracas] PHP Warning:  Illegal string offset 'id' in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 50
+[10-Oct-2019 14:24:43 America/Caracas] PHP Notice:  Uninitialized string offset: 0 in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 50
+[10-Oct-2019 14:24:43 America/Caracas] PHP Warning:  Illegal string offset 'id' in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 53
+[10-Oct-2019 14:24:43 America/Caracas] PHP Notice:  Uninitialized string offset: 0 in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 53
+[10-Oct-2019 14:24:43 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 15:26:06 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 15:41:09 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 15:41:09 America/Caracas] PHP Warning:  Illegal string offset 'id' in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 50
+[10-Oct-2019 15:41:09 America/Caracas] PHP Notice:  Uninitialized string offset: 0 in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 50
+[10-Oct-2019 15:41:09 America/Caracas] PHP Warning:  Illegal string offset 'id' in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 53
+[10-Oct-2019 15:41:09 America/Caracas] PHP Notice:  Uninitialized string offset: 0 in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 53
+[10-Oct-2019 15:41:09 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:02:55 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:05:10 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:05:39 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:09:10 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 53
+[10-Oct-2019 16:09:10 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 53
+[10-Oct-2019 16:09:49 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:10:33 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:17:54 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:31:34 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:36:51 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:38:50 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:40:10 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:41:56 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 16:43:59 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 17:17:07 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 17:19:47 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 17:23:13 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[10-Oct-2019 17:23:13 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 31
+[10-Oct-2019 17:23:13 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 08:37:13 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
