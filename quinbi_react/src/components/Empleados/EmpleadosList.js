@@ -5,7 +5,6 @@ const EmpleadosList = ({rows, verEmpleado}) => {
     return (  
         rows.map((empleado, key) => (
             <tr key={key}>
-                <td>{empleado.id}</td>
                 <td>{empleado.cedula}</td> 
                 <td>{empleado.nombre} {empleado.apellido}</td>                                    
                 <td>{empleado.fecha_ingreso}</td> 

@@ -8,11 +8,15 @@ class NominaAdd extends Component {
         add: true,
         addCheck: false,
         preview: false,
+        listEmpleados: [],
         addNomina: {
-            id: Number,
-            dateFrom: "",
-            dateTo: "",
-            empleados: [],
+            numero: Number,
+            fecha_desde: "",
+            fecha_hasta: "",
+            empleados: [{
+                id: Number,
+                name: ""
+            }],
             fecha: []
         }
     }
@@ -22,15 +26,20 @@ class NominaAdd extends Component {
         var dateT = add[1].toString().substr(4,11)
         var dateTo = this.formatoFecha(dateT)
         var state = this.state.addNomina
+        var f = new Date();
+        f = f.getDate().toString().padStart(2, '0')+"-"+f.getMonth().toString().padStart(2, '0')+"-"+f.getFullYear()+ " " +
+            f.getHours().toString().padStart(2, '0')+":"+f.getMinutes().toString().padStart(2, '0')+":"+f.getSeconds().toString().padStart(2, '0');
+        console.log(f);
         state = {
-            id: Math.ceil(Math.random() * 123456789).toString(),
-            dateFrom: dateFrom,
-            dateTo: dateTo,
-            fecha: add
+            numero: Math.ceil(Math.random() * 123456789).toString(),
+            fecha_desde: dateFrom,
+            fecha_hasta: dateTo,
+            fecha: f
         }
         this.setState({
             addNomina: state
         })
+        console.log(state);
     }
     add2 = (add) => {
         var state = this.state.addNomina
@@ -83,7 +92,7 @@ class NominaAdd extends Component {
                 month = 12
                 break;
         }
-        fecha = `${day}/${month}/${year}`
+        fecha = `${day}-${month}-${year}`
         return fecha
     }
     edit = () => {
@@ -102,6 +111,12 @@ class NominaAdd extends Component {
     closePopup = () => {
         this.props.closePopup("true")
     }
+
+    componentDidMount() {
+        this.setState({
+            listEmpleados: this.props.empleados
+        });
+    }
     render() { 
         return (  
             <div className="bg-popup fadein">
@@ -110,7 +125,7 @@ class NominaAdd extends Component {
                     <hr className="col-12" />
                     <h2 className="col-12">REGISTRAR</h2>
                     <hr className="col-10" />
-                    <div className="add col-8">
+                    <div className="add col-10">
                         {   
                             (this.state.add)
                                 ?   <div className="accordion" id="accordionExample">
@@ -147,7 +162,7 @@ class NominaAdd extends Component {
                                                 <div className="card-body card-ultimo">
                                                     <NominaAdd2 
                                                         add2={this.add2}
-                                                        nomina={this.state.addNomina.empleados}
+                                                        nomina={this.state.listEmpleados}
                                                     />
                                                 </div>
                                             </div>

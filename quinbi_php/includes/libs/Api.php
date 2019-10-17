@@ -52,22 +52,23 @@ class Api extends ApiQuery {
         }
     }
 
-    public function editinline () {
-			
-        $pk = escape_value($_POST['pk']);
-        $value = escape_value($_POST['value']);
-        
-        $parts = explode( '-', $pk );
-        $tablename = $parts[0];
-        $fieldname = $parts[1];
-        $id = $parts[2];
-        
-        $arrayModificacion = array();
-                                
-        $arrayModificacion[$fieldname] = $value;
-        
-        $insert = $this->helper->update($tablename, $id, $arrayModificacion);
-        print_r($insert);	
+    public function queries($action, $table, $data='', $id='') {
+        switch ($action) {
+            case 'insert':
+                $response = Helper::insert($table, $data);
+                echo $response;
+                break;
+
+            case 'update':
+                $response = Helper::update($table, $id, $data);
+                echo $response;
+                break;
+            
+            default:
+                $response = ApiQuery::getEgresosNomina();
+                echo json_encode($response);
+                break;
+        }
     }
 	
 	

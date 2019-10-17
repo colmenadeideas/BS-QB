@@ -79,9 +79,9 @@ class NominaPreview extends Component {
         console.log("imprimir")
     }
     render() { 
-        let fecha = new Date()
+        console.log(this.props);
         
-        const { dateFrom, dateTo, empleados } = this.props.nomina
+        const { nomina } = this.props
         return (  
             <div className="bg-popup fadein">
                 <div className="popup row justify-content-center">
@@ -90,23 +90,21 @@ class NominaPreview extends Component {
                     {
                         (this.state.nomina)
                             ?   <React.Fragment>
-                                    <h4 className="nomina-text">Nomina del <span className="fecha">{dateFrom}</span> al <span className="fecha">{dateTo}</span></h4>
+                                    <h4 className="nomina-text">Nomina del <span className="fecha">{nomina.fecha_desde}</span> al <span className="fecha">{nomina.fecha_hasta}</span></h4>
                                     <div className="w-100"></div>
-                                    <h6 className="nomina-text">elaboración {this.formatoFecha(fecha)} por Delia E. Lárez</h6>
+                                    <h6 className="nomina-text">elaboración {nomina.fecha} por Delia E. Lárez</h6>
                                     <table className="col-11 table table-striped table-hover"> 
                                         <tbody>
-                                            {
-                                                empleados.map((value, key) => (
-                                                    <tr key={key}>
-                                                        <td>{value}</td>
-                                                        <td>Bs. 000.000,00</td>
-                                                        <td>
-                                                            <button onClick={this.verRecibo} className="btn-nomina"><i className="fas fa-search"></i> Ver recibo</button>
-                                                            <button onClick={this.generarComprobante} className="btn-nomina"><i className="fas fa-file"></i> Generar comprobante</button>
-                                                        </td>
-                                                    </tr>
-                                                ))
-                                            }
+                                            
+                                            <tr key={nomina.id}>
+                                                <td>{nomina.fecha}</td>
+                                                <td>Bs. 000.000,00</td>
+                                                <td>
+                                                    <button onClick={this.verRecibo} className="btn-nomina"><i className="fas fa-search"></i> Ver recibo</button>
+                                                    <button onClick={this.generarComprobante} className="btn-nomina"><i className="fas fa-file"></i> Generar comprobante</button>
+                                                </td>
+                                            </tr>
+                                               
                                         </tbody>
                                     </table>
                                 </React.Fragment>

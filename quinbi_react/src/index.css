@@ -1,3 +1,11 @@
+/*QUITAR AL TERMINAR*/
+i.fas.fa-plus {
+    width: 12px;
+    height: 12px;
+    background: black;
+    display: block;
+}
+/*FIN DE "QUITAR AL TERMINAR"*/
 body {
   background: #ebb300;
 }
@@ -11,11 +19,20 @@ th {
 td {
     padding: 10px;
 }
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
 
 /* Maestro */
 .maestro,
 .empleado {
-  height: 90vh;
+  /*height: 90vh;*/
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -71,7 +88,7 @@ td {
 }
 .popup {
   background: #FFF;
-  width: 60%;
+  width: 75%;
   margin: auto;
   text-align: center;
   border-radius: 10px;
@@ -181,10 +198,6 @@ span.autor {
   height: 30px;
   margin: 0 10px 10px 0;
 }
-.empleado {
-  display: flex;
-  width: 100%;
-}
 .empleado h4 {
   margin-bottom: 10px;
 }
@@ -252,6 +265,17 @@ span.fecha {
 }
 .comprobantes {
   margin-bottom: 15px;
+}
+.div-40,
+.div-60 {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    font-size: 12px;
+}
+
+.input-square{
+    width: 25px;
 }
 /* Fin Nomina */
 

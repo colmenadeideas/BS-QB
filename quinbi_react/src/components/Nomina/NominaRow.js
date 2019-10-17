@@ -8,12 +8,13 @@ class NominaRow extends Component {
         this.props.ver(this.props.row)
     }
     render() { 
-        const { id, dateFrom, dateTo } = this.props.row
+        const { fecha_desde, fecha_hasta, fecha } = this.props.row
+        //console.log(fecha)
         return (  
             <React.Fragment>
-                <td>{id}</td>
-                <td>{dateFrom}</td> 
-                <td>{dateTo}</td>                                    
+                <td>{fecha_desde}</td> 
+                <td>{fecha_hasta}</td>
+                <td>{fecha}</td>
                 <td><span className="autor">Delia E. Lárez</span></td> 
                 <td>
                     <button onClick={this.editarNomina} className="btn editar"><i className="fas fa-pencil-alt"></i> editar</button>

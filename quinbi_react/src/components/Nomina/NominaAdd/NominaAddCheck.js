@@ -9,16 +9,17 @@ class NominaCheck extends Component {
         this.props.accept("true")
     }
     render() { 
-        const { dateFrom, dateTo, empleados } = this.props.addNomina
+        const { fecha_desde, fecha_hasta, empleados } = this.props.addNomina
+        console.log(empleados);
         return (  
             <React.Fragment>
-                <p><strong>Desde:</strong> {dateFrom}</p>
-                <p><strong>Hasta:</strong> {dateTo}</p>
+                <p><strong>Desde:</strong> {fecha_desde}</p>
+                <p><strong>Hasta:</strong> {fecha_hasta}</p>
                 <p><strong>Empleados:</strong></p>
                 <ul className="lista">
                     {
                         empleados.map((empleado, key) => (
-                            <li key={key}>{empleado}</li>
+                            <li key={key}>{empleado.name}</li>
                         ))
                     }
                 </ul>

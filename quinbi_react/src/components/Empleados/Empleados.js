@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import EmpleadoAdd from './EmpleadoAdd';
-import EmpleadoEdit from './EmpleadoEdit';
 import EmpleadoShow from './EmpleadoShow';
 import EmpleadosList from './EmpleadosList';
 
@@ -16,23 +15,12 @@ class Empleados extends Component {
         verRow: []
     }
 
-    componentDidMount() {
-        let url = `http://localhost/BS-QB/quinbi_php/html/api/getEmployees/`
-        axios.get(url)
-            .then(res => {
-                this.setState({ 
-                    rows: res.data
-                }); 
-                //console.log(this.state.rows);
-            })
-    }
-
     addEmpleado = () => {
         this.setState({
             add: true
         })
     }
-
+    
     verEmpleado = (row) => {
         if (!this.state.ver) {
             this.setState({
@@ -45,17 +33,15 @@ class Empleados extends Component {
             })
         }
     }
-
+    
     editarEmpleado = (empleado) => { 
         if (empleado && empleado !== "true") {
             let row = ''
             this.state.rows.filter(emp => (
                 (emp.id === empleado.id) ? row = empleado : ''//JSON.stringify(empleado) : ''        
-            ))
+                ))
 
-            let url = `http://localhost/BS-QB/quinbi_php/html/api/employee/update`//+encodeURIComponent(row)
-            console.log(row)
-            //console.log(url);
+                let url = `http://localhost/BS-QB/quinbi_php/html/api/employee/update`//+encodeURIComponent(row)
 
             axios.post(url, {row})
                 .then(res => {
@@ -63,17 +49,21 @@ class Empleados extends Component {
                     if (res.data === 1) {
                         let indice = 0
                         var rows = [...this.state.rows]
-                        rows.map(function(emp, i){
-                            emp.id === row.id ? indice = i : console.log("nada");
-                        })
-                        rows[indice] = row
-
+                        rows.map((emp, i) => (
+                            emp.id === row.id ? indice = i : console.log("nada")
+                        ))
+                        let edited = rows[indice]
+                        let keys = Object.keys(row)
+                        keys.map(value => (
+                            edited[value] = row[value]
+                        ))
+                        rows[indice] = edited
+                        
                         this.setState({
                             rows
                         }, () => {
                             this.editarEmpleado()
                         })
-                        console.log(this.state.rows)
                     }
                 })
                 .catch(error => {
@@ -81,30 +71,37 @@ class Empleados extends Component {
                 })
         }
     }
-
+        
     done = (empleado) => {
         let row = empleado
         let url = `http://localhost/BS-QB/quinbi_php/html/api/employee/insert`
-        console.log(url);
         axios.post(url, {row})
-            .then(res => {
-                if (res.data === 1) {
-                    var rows = [...this.state.rows, empleado]
-                    this.setState({
-                        add: false,
-                        rows
-                    })
-                }
-                console.log(res);
-                console.log(this.state.rows);
-            })
-
+        .then(res => {
+            if (res.data === 1) {
+                var rows = [...this.state.rows, empleado]
+                this.setState({
+                    add: false,
+                    rows
+                })
+            }
+        })
     }
-
+        
     closePopup = () => {
         this.setState({
             add: false
         })
+    }
+    
+    componentDidMount() {
+        let url = `http://localhost/BS-QB/quinbi_php/html/api/getEmployees/`
+        axios.get(url)
+            .then(res => {
+                this.setState({ 
+                    rows: res.data
+                }); 
+                //console.log(this.state.rows);
+            })
     }
 
     render() { 
@@ -122,7 +119,6 @@ class Empleados extends Component {
                     <table>
                             <thead>
                                 <tr>
-                                    <th>ID</th>
                                     <th>Cedula</th> 
                                     <th>Nombre y Apellido</th>
                                     <th>Fecha de Ingreso</th>

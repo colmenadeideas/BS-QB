@@ -8,6 +8,9 @@
 .usuario a {
     color: #FFF !important;
 }
+a.dropdown-item:hover {
+    border: 0;
+}
 .nav-link {
     color: #FFF !important;
 }

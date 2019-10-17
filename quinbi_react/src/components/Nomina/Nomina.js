@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+
 import NominaAdd from './NominaAdd/NominaAdd';
 import NominaBody from './NominaBody';
 import NominaEditar from './NominaEditar/NominaEditar';
@@ -10,7 +12,8 @@ class Nomina extends Component {
         editar: false,
         ver: false,
         rows: [],
-        editRow: []
+        editRow: [],
+        empleados: []
     }
     addMaestro = () => {
         this.setState({
@@ -18,19 +21,20 @@ class Nomina extends Component {
         })
     }
     done = (nomina) => {
-        var rows = [...this.state.rows, nomina]
-        this.setState({
-            editRow: nomina,
-            rows,
-            add: false,
-            ver: true
-        })
-    }
-    closePopup = () => {
-        this.setState({
-            add: false,
-            editar: false,
-            ver: false
+        let row = nomina;
+        let url = `http://localhost/BS-QB/quinbi_php/html/api/insert/egresos_nomina`
+        axios.post(url, {row})
+        .then(res => {
+            console.log(res);
+            if (res.data === 1) {
+                var rows = [...this.state.rows, nomina]
+                this.setState({
+                    editRow: nomina,
+                    rows,
+                    add: false,
+                    ver: true
+                })
+            }
         })
     }
     editarNomina = (row) => {
@@ -61,16 +65,42 @@ class Nomina extends Component {
     nomina = (nomina) => {
         var row = this.state.rows.filter(row => (
             (row.id === nomina.id) ? row : ''
-        ))
-        var indice = this.state.rows.indexOf(row[0])
-        var rows = this.state.rows
-        rows[indice] = nomina
+            ))
+            var indice = this.state.rows.indexOf(row[0])
+            var rows = this.state.rows
+            rows[indice] = nomina
+            this.setState({
+                rows
+            }, () => {
+                this.verNomina(nomina)
+            })
+    }
+    closePopup = () => {
         this.setState({
-            rows
-        }, () => {
-            this.verNomina(nomina)
+            add: false,
+            editar: false,
+            ver: false
         })
     }
+
+    componentDidMount() {
+            let url = `http://localhost/BS-QB/quinbi_php/html/api/getAll/all/egresos_nomina`
+            axios.get(url)
+            .then(res => {
+                this.setState({
+                    rows: res.data
+                });
+            })
+
+        url = `http://localhost/BS-QB/quinbi_php/html/api/getEmployees/`
+        axios.get(url)
+            .then(res => {
+                this.setState({
+                    empleados: res.data
+                });
+            })
+    }
+
     render() { 
         return (  
             <div className="row justify-content-center no-gutters maestro">
@@ -85,10 +115,10 @@ class Nomina extends Component {
                         <table>
                             <thead>
                                 <tr>
-                                    <th>ID</th>
                                     <th>desde</th> 
                                     <th>hasta</th>
-                                    <th>elaborada por</th>
+                                    <th>Creacion</th>
+                                    <th>Elaborada por</th>
                                     <th>Acciones</th>
                                 </tr>
                             </thead>
@@ -107,6 +137,7 @@ class Nomina extends Component {
                         ?   <NominaAdd 
                                 closePopup={this.closePopup}
                                 done={this.done}
+                                empleados={this.state.empleados}
                             />
                         :   ""
                 }

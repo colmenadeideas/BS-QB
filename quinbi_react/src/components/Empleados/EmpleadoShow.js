@@ -34,9 +34,14 @@ class EmpleadoShow extends Component {
     }
 
     enabledInputs = () => {
-        this.setState({
-            disabled: false
-        });
+        this.state.disabled ?
+            this.setState({
+                disabled: false
+            })
+        :
+            this.setState({
+                disabled: true
+            })
     }
 
     componentDidMount() {

@@ -648,3 +648,109 @@ Stack trace:
 [10-Oct-2019 17:23:13 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 31
 [10-Oct-2019 17:23:13 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
 [11-Oct-2019 08:37:13 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 08:46:30 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 08:57:06 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 09:04:19 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 09:09:05 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 09:10:36 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 09:13:03 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 09:16:04 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 09:18:26 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 09:18:35 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 09:18:52 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 09:19:39 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 328
+[11-Oct-2019 10:35:58 America/Caracas] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Api::queries(), 1 passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 22 and at least 2 expected in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php:55
+Stack trace:
+#0 /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php(22): Api->queries('all')
+#1 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(108): apiController->getAll()
+#2 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/BS-QB/quinbi_php/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php on line 55
+[11-Oct-2019 10:37:06 America/Caracas] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Api::queries(), 1 passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 22 and at least 2 expected in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php:55
+Stack trace:
+#0 /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php(22): Api->queries('all')
+#1 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(108): apiController->getAll()
+#2 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/BS-QB/quinbi_php/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php on line 55
+[11-Oct-2019 10:39:17 America/Caracas] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Api::queries(), 1 passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 22 and at least 2 expected in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php:55
+Stack trace:
+#0 /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php(22): Api->queries('all')
+#1 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(108): apiController->getAll()
+#2 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/BS-QB/quinbi_php/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php on line 55
+[11-Oct-2019 10:39:43 America/Caracas] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Api::queries(), 1 passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 22 and at least 2 expected in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php:55
+Stack trace:
+#0 /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php(22): Api->queries('all')
+#1 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(108): apiController->getAll()
+#2 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/BS-QB/quinbi_php/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php on line 55
+[11-Oct-2019 10:40:18 America/Caracas] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Api::queries(), 1 passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 22 and at least 2 expected in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php:55
+Stack trace:
+#0 /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php(22): Api->queries('all')
+#1 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(108): apiController->getAll()
+#2 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/BS-QB/quinbi_php/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php on line 55
+[11-Oct-2019 10:40:57 America/Caracas] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Api::queries(), 1 passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 22 and at least 2 expected in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php:55
+Stack trace:
+#0 /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php(22): Api->queries('all')
+#1 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(115): apiController->getAll('all')
+#2 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/BS-QB/quinbi_php/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php on line 55
+[11-Oct-2019 10:41:05 America/Caracas] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Api::queries(), 1 passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 22 and at least 2 expected in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php:55
+Stack trace:
+#0 /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php(22): Api->queries('all')
+#1 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(121): apiController->getAll('all', 'egresos')
+#2 /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Bootstrap.php(30): Bootstrap->_getControllerMethod()
+#3 /Users/mtrx/BESIGN/BS-QB/quinbi_php/html/index.php(34): Bootstrap->init()
+#4 {main}
+  thrown in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/Api.php on line 55
+[15-Oct-2019 10:50:42 America/Caracas] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 351
+[15-Oct-2019 10:50:42 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 357
+[15-Oct-2019 10:50:42 America/Caracas] PHP Warning:  implode(): Invalid arguments passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 369
+[15-Oct-2019 10:50:42 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 30
+[15-Oct-2019 10:50:42 America/Caracas] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 351
+[15-Oct-2019 10:50:42 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 357
+[15-Oct-2019 10:50:42 America/Caracas] PHP Warning:  implode(): Invalid arguments passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 369
+[15-Oct-2019 10:53:05 America/Caracas] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 351
+[15-Oct-2019 10:53:05 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 357
+[15-Oct-2019 10:53:05 America/Caracas] PHP Warning:  implode(): Invalid arguments passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 369
+[15-Oct-2019 10:53:05 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 30
+[15-Oct-2019 10:53:05 America/Caracas] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 351
+[15-Oct-2019 10:53:05 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 357
+[15-Oct-2019 10:53:05 America/Caracas] PHP Warning:  implode(): Invalid arguments passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 369
+[15-Oct-2019 10:55:54 America/Caracas] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 351
+[15-Oct-2019 10:55:54 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 357
+[15-Oct-2019 10:55:54 America/Caracas] PHP Warning:  implode(): Invalid arguments passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 369
+[15-Oct-2019 10:55:54 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 30
+[15-Oct-2019 10:55:55 America/Caracas] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 351
+[15-Oct-2019 10:55:55 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 357
+[15-Oct-2019 10:55:55 America/Caracas] PHP Warning:  implode(): Invalid arguments passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 369
+[15-Oct-2019 10:59:08 America/Caracas] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 351
+[15-Oct-2019 10:59:08 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 357
+[15-Oct-2019 10:59:08 America/Caracas] PHP Warning:  implode(): Invalid arguments passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 369
+[15-Oct-2019 10:59:08 America/Caracas] PHP Notice:  Undefined index: row in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 30
+[15-Oct-2019 10:59:08 America/Caracas] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 351
+[15-Oct-2019 10:59:08 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 357
+[15-Oct-2019 10:59:08 America/Caracas] PHP Warning:  implode(): Invalid arguments passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 369
+[15-Oct-2019 11:00:36 America/Caracas] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 351
+[15-Oct-2019 11:00:36 America/Caracas] PHP Warning:  Invalid argument supplied for foreach() in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 357
+[15-Oct-2019 11:00:36 America/Caracas] PHP Warning:  implode(): Invalid arguments passed in /Users/mtrx/BESIGN/BS-QB/quinbi_php/includes/libs/DB.php on line 369
+[15-Oct-2019 14:04:30 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 63
+[15-Oct-2019 14:04:30 America/Caracas] PHP Notice:  Undefined index: id in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 63
+[15-Oct-2019 16:25:52 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 40
+[15-Oct-2019 16:25:52 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 40
+[15-Oct-2019 16:49:11 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 40
+[15-Oct-2019 16:49:11 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 40
+[15-Oct-2019 17:05:29 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 40
+[15-Oct-2019 17:05:30 America/Caracas] PHP Notice:  Undefined variable: action in /Users/mtrx/BESIGN/BS-QB/quinbi_php/app/controllers/apiController.php on line 40
