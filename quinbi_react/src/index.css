@@ -80,11 +80,12 @@ input[type=number] {
 .bg-popup {
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   background-color: #0000004a;
   top: 0;
   left: 0;
   display: flex;
+  overflow-y: auto;
 }
 .popup {
   background: #FFF;
@@ -208,7 +209,7 @@ span.autor {
   border-radius: 0 0 30px 30px;
 }
 .lista {
-  width: 50%;
+  width: 85%;
   list-style-position: inside;
   margin: 10px auto;
   text-align: start;
@@ -269,9 +270,10 @@ span.fecha {
 .div-40,
 .div-60 {
     display: flex;
-    width: 90%;
-    align-items: center;
+    /*width: 90%;
+    align-items: center;*/
     font-size: 12px;
+    height: 60px;
 }
 
 .input-square{

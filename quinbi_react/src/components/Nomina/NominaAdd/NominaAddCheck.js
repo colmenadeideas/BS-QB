@@ -19,7 +19,11 @@ class NominaCheck extends Component {
                 <ul className="lista">
                     {
                         empleados.map((empleado, key) => (
-                            <li key={key}>{empleado.name}</li>
+                            <li key={key} className="row">
+                                <span className="col-4">{empleado.name}</span> 
+                                <span className="col-4">Dias Extras: {empleado.dias_extras}</span> 
+                                <span className="col-4">Ausencias: {empleado.ausencias}</span>
+                            </li>
                         ))
                     }
                 </ul>

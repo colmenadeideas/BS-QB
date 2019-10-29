@@ -11,14 +11,13 @@ class NominaAdd2 extends Component {
     }
     changeEvent = (event) => {
         const options = this.state.optionsChecked
-        const showInputs = this.state.showInputs
-        console.log(options)
+        const { showInputs, dias_extras, ausencias } = this.state
         
         let selectedValue = event.target.value;
         let selectedName = event.target.name;
         let valuesChecked = {id: selectedValue, name: selectedName}
         let optionsChecked
-        console.log(valuesChecked)
+
         if (event.target.checked === true) {
             optionsChecked = [...options, valuesChecked]
             this.setState({
@@ -26,18 +25,18 @@ class NominaAdd2 extends Component {
                 optionsChecked
             });     
         } else {
-            console.log(options);
-            let index = options.indexOf(valuesChecked)
-            console.log(index);
-            optionsChecked = options.splice(index, 1)
-            console.log(options);
+            let optionsChecked = this.deleteRow(options, selectedValue)
+            let hideInput = this.deleteRow(showInputs, selectedValue)
+            let extras = this.deleteRow(dias_extras, selectedValue)
+            let aus = this.deleteRow(ausencias, selectedValue)
 
-            // this.setState({
-            //     optionsChecked
-            // });
+            this.setState({
+                showInputs: hideInput,
+                optionsChecked,
+                dias_extras: extras,
+                ausencias: aus
+            });
         }
-        console.log(optionsChecked);
-        console.log(this.state.optionsChecked);
     }
     changeData = e => {
         let value = e.target.value
@@ -58,74 +57,52 @@ class NominaAdd2 extends Component {
         console.log(this.state);
     }
     checkState = (stateData, id, value) => {
-        let index = -1
         let datos
-
+        
         if (stateData.length > 0) {
-            stateData.map((val, i) => (
-            val.id === id ? index = i : index = -1
-            ))
-        }
-        if (index === -1) {
-            datos = [...stateData, {id, value}]
+            if (value !== "") {
+                stateData = this.deleteRow(stateData, id)
+                datos = [...stateData, {id, value}]
+            } else {
+                datos = this.deleteRow(stateData, id)
+            }
         } else {
-            datos = stateData
-            datos[index] = {id, value}
+            datos = [{id, value}]
         }
+        
         return datos
     }
+    deleteRow = (row, id) => (
+        row.filter(r => r.id !== id)
+    )
+
     handleSubmit = (e) => {
         e.preventDefault()
 
         const { ausencias, dias_extras, optionsChecked, data } = this.state
-        console.log(ausencias, dias_extras, optionsChecked);
+        let datos = data
+
         if (optionsChecked.length > 0){
             optionsChecked.map(row => {
-                var ausen = 0
-                var extras = 0
-                let mensaje = ""
+                let id = row.id
+                let ausen = dias_extras.length > 0 ? this.checkData(ausencias, id) : 0
+                let extras = dias_extras.length > 0 ? this.checkData(dias_extras, id) : 0
 
-                this.checkData(dias_extras, row.id);
-
-                /* if (dias_extras.length > 0) {
-                    dias_extras.map(ext => {
-                        if (ext.id === row.id) {
-                            extras = ext.value
-                        } else {
-                            mensaje = "Recuerde tambien marcar los empleados en que agrego ausencias o dias extras"
-                        }
-                        return ext.id === row.id ? extras = ext.value : extras = 0
-                    })
-                }
-                if (ausencias.length > 0) {
-                    ausencias.map(aus => {
-                        // console.log(aus)
-                        return aus.id === row.id ? ausen = aus.value : ausen = 0
-                    })
-                }
-                
-                data.push({id: row.id, dias_extras: extras, ausencias: ausen})
-                return this.setState({ data }); */
+                return datos.push({id, name: row.name, dias_extras: extras, ausencias: ausen})
             })
+            this.setState({ data: datos})
+            this.props.add2(this.state.data)
         } else {
             console.log("no hay ningun empleado seleccionado");
         }
-
         console.log(this.state.data);
-        //this.props.add2(this.state.data)
     }
     checkData = (data, id) => {
-        if (data.length > 0) {
-            /* data.filter( d => {
-                if (d.id === id) {
-                    let dato = d.value
-                } else {
-                    let dato = "m"
-                }
-            }) */
-            console.log(data.filter(d => (d.id === id)))
-            
-        }
+        let value = 0
+        data.map(d => (
+            d.id === id ? value = d.value : value = 0
+        ))           
+        return value
     }
 
     render() { 
@@ -143,7 +120,7 @@ class NominaAdd2 extends Component {
         return (  
             <React.Fragment>
                 <form className="row" onSubmit={this.handleSubmit}>
-                    <div className="checkboxes">
+                    <div className="checkboxes row">
                         {outputCheckboxes}
                     </div>
                     <div className="w-100"></div>

@@ -1,57 +1,14 @@
 import React, { Component } from 'react';
+//import { formatoFecha } from '../formatoFecha'
+import NominaData from './NominaData'
+import NominaRecibo from './NominaRecibo';
+import NominaComprobante from './NominaComprobante';
 
 class NominaPreview extends Component {
     state = {  
         nomina: true,
         recibo: false,
         comprobante: false
-    }
-    formatoFecha = (datos) => {
-        var fecha = datos.toString()
-        var month = fecha.substr(4, 3)
-        var day = fecha.substr(8, 2)
-        var year = fecha.substr(11, 4)
-        var hora = fecha.substr(16, 8)
-        switch (month) {
-            case "Jan":
-                month = 1
-                break;
-            case "Feb":
-                month = 2
-                break;
-            case "Mar":
-                month = 3
-                break;
-            case "Apr":
-                month = 4
-                break;
-            case "May":
-                month = 5
-                break;
-            case "Jun":
-                month = 6
-                break;
-            case "Jul":
-                month = 7
-                break;
-            case "Aug":
-                month = 8
-                break;
-            case "Sep":
-                month = 9
-                break;
-            case "Oct":
-                month = 10
-                break;
-            case "Nov":
-                month = 11
-                break;
-            default:
-                month = 12
-                break;
-        }
-        fecha = `${year}-${month}-${day} ${hora}`
-        return fecha
     }
     closePopup = () => {
         this.props.closePopup("true")
@@ -95,16 +52,31 @@ class NominaPreview extends Component {
                                     <h6 className="nomina-text">elaboración {nomina.fecha} por Delia E. Lárez</h6>
                                     <table className="col-11 table table-striped table-hover"> 
                                         <tbody>
-                                            
-                                            <tr key={nomina.id}>
-                                                <td>{nomina.fecha}</td>
-                                                <td>Bs. 000.000,00</td>
-                                                <td>
-                                                    <button onClick={this.verRecibo} className="btn-nomina"><i className="fas fa-search"></i> Ver recibo</button>
-                                                    <button onClick={this.generarComprobante} className="btn-nomina"><i className="fas fa-file"></i> Generar comprobante</button>
-                                                </td>
-                                            </tr>
-                                               
+                                            {
+                                                (this.state.nomina) 
+                                                    ?   <NominaData 
+                                                            nomina={nomina}
+                                                            recibo={this.verRecibo}
+                                                            generarComprobante={this.generarComprobante} 
+                                                        />
+                                                    : ""
+                                                
+                                                (this.state.comprobante)
+                                                    ?   <NominaComprobante
+                                                            nomina={nomina}
+                                                            regresarPreview={this.regresarPreview}
+                                                            imprimir={this.imprimir} 
+                                                        />
+                                                    :   ""
+
+                                                (this.state.recibo)
+                                                    ?   <NominaRecibo
+                                                            nomina={nomina}
+                                                            regresarPreview={this.regresarPreview}
+                                                            imprimir={this.imprimir} 
+                                                        />
+                                                    :   ""
+                                            }
                                         </tbody>
                                     </table>
                                 </React.Fragment>
@@ -112,22 +84,20 @@ class NominaPreview extends Component {
                     }
                     {
                         (this.state.recibo)
-                            ?   <div className="comprobantes">
-                                    <h2>RECIBO</h2>
-                                    <div className="w-100"></div>
-                                    <button onClick={this.regresarPreview} className="regresar"><i className="fas fa-arrow-circle-left"></i> Regresar</button>
-                                    <button onClick={this.imprimir} className="imprimir"><i className="fas fa-print"></i> Imprimir</button>
-                                </div>
+                            ?   <NominaRecibo
+                                    nomina={nomina}
+                                    regresarPreview={this.regresarPreview}
+                                    imprimir={this.imprimir} 
+                                />
                             :   ""
                     }
                     {
                         (this.state.comprobante)
-                            ?   <div className="comprobantes">
-                                    <h2>COMPROBANTE</h2>
-                                    <div className="w-100"></div>
-                                    <button onClick={this.regresarPreview} className="regresar"><i className="fas fa-arrow-circle-left"></i> Regresar</button>
-                                    <button onClick={this.imprimir} className="imprimir"><i className="fas fa-print"></i> Imprimir</button>
-                                </div>
+                            ?   <NominaComprobante
+                                    nomina={nomina}
+                                    regresarPreview={this.regresarPreview}
+                                    imprimir={this.imprimir} 
+                                />
                             :   ""
                     }
                 </div>

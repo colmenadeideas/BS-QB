@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NominaAdd1 from './NominaAdd1';
 import NominaAdd2 from './NominaAdd2';
 import NominaAddCheck from './NominaAddCheck';
+import { formatoFecha } from '../formatoFecha'
 
 class NominaAdd extends Component {
     state = {  
@@ -21,14 +22,15 @@ class NominaAdd extends Component {
         }
     }
     add1 = (add) => {
+        console.log(add);
         var dateF = add[0].toString().substr(4,11)
-        var dateFrom = this.formatoFecha(dateF)
         var dateT = add[1].toString().substr(4,11)
-        var dateTo = this.formatoFecha(dateT)
+        var dateFrom = formatoFecha(dateF)
+        var dateTo = formatoFecha(dateT)
         var state = this.state.addNomina
         var f = new Date();
-        f = f.getDate().toString().padStart(2, '0')+"-"+f.getMonth().toString().padStart(2, '0')+"-"+f.getFullYear()+ " " +
-            f.getHours().toString().padStart(2, '0')+":"+f.getMinutes().toString().padStart(2, '0')+":"+f.getSeconds().toString().padStart(2, '0');
+        f = f.getDate().toString().padStart(2, '0')+"-"+f.getMonth().toString().padStart(2, '0')+"-"+f.getFullYear()+ " " + //fecha
+            f.getHours().toString().padStart(2, '0')+":"+f.getMinutes().toString().padStart(2, '0')+":"+f.getSeconds().toString().padStart(2, '0'); //hora
         console.log(f);
         state = {
             numero: Math.ceil(Math.random() * 123456789).toString(),
@@ -42,6 +44,7 @@ class NominaAdd extends Component {
         console.log(state);
     }
     add2 = (add) => {
+        console.log(add);
         var state = this.state.addNomina
         state.empleados = add
         this.setState({
@@ -49,51 +52,6 @@ class NominaAdd extends Component {
             add: false,
             addCheck: true
         })
-    }
-    formatoFecha = (fecha) => {
-        var month = fecha.substr(0, 3)
-        var day = fecha.substr(4, 2)
-        var year = fecha.substr(7,4)
-        switch (month) {
-            case "Jan":
-                month = 1
-                break;
-            case "Feb":
-                month = 2
-                break;
-            case "Mar":
-                month = 3
-                break;
-            case "Apr":
-                month = 4
-                break;
-            case "May":
-                month = 5
-                break;
-            case "Jun":
-                month = 6
-                break;
-            case "Jul":
-                month = 7
-                break;
-            case "Aug":
-                month = 8
-                break;
-            case "Sep":
-                month = 9
-                break;
-            case "Oct":
-                month = 10
-                break;
-            case "Nov":
-                month = 11
-                break;
-            default:
-                month = 12
-                break;
-        }
-        fecha = `${day}-${month}-${year}`
-        return fecha
     }
     edit = () => {
         this.setState({

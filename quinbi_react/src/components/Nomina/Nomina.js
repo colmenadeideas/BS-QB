@@ -21,12 +21,13 @@ class Nomina extends Component {
         })
     }
     done = (nomina) => {
+        console.log(nomina);
         let row = nomina;
         let url = `http://localhost/BS-QB/quinbi_php/html/api/insert/egresos_nomina`
         axios.post(url, {row})
         .then(res => {
             console.log(res);
-            if (res.data === 1) {
+            //if (res.data === 1) { //comentado de forma temporal hasta que se haga la logica en el backend
                 var rows = [...this.state.rows, nomina]
                 this.setState({
                     editRow: nomina,
@@ -34,7 +35,7 @@ class Nomina extends Component {
                     add: false,
                     ver: true
                 })
-            }
+            //}
         })
     }
     editarNomina = (row) => {
@@ -84,8 +85,8 @@ class Nomina extends Component {
     }
 
     componentDidMount() {
-            let url = `http://localhost/BS-QB/quinbi_php/html/api/getAll/all/egresos_nomina`
-            axios.get(url)
+        let url = `http://localhost/BS-QB/quinbi_php/html/api/getAll/all/egresos_nomina`
+        axios.get(url)
             .then(res => {
                 this.setState({
                     rows: res.data
