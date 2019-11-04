@@ -61,7 +61,7 @@ const Navbar = () => {
                             <i className="fas fa-file"></i> Presupuestos
                         </button>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <button className="dropdown-item">Action</button>
+                            <Link to="/quinbi/presupuestos" className="dropdown-item">Lista presupuestos</Link>
                             <button className="dropdown-item">Another action</button>
                             <button className="dropdown-item">Something else here</button>
                         </div>

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import Empleado from './Empleado';
 import EmpleadoAdd from './EmpleadoAdd';
 import EmpleadoShow from './EmpleadoShow';
-import EmpleadosList from './EmpleadosList';
 
 class Empleados extends Component {
     state = {  
@@ -128,7 +128,7 @@ class Empleados extends Component {
                             </thead>
                             <tbody>
                                 {
-                                    <EmpleadosList
+                                    <Empleado
                                         rows={this.state.rows}
                                         verEmpleado={this.verEmpleado}
                                     /> 

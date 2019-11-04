@@ -65,7 +65,7 @@ class Api extends ApiQuery {
                 break;
             
             default:
-                $response = ApiQuery::getEgresosNomina();
+                $response = ApiQuery::getAll($table);
                 echo json_encode($response);
                 break;
         }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const EmpleadosList = ({rows, verEmpleado}) => {
+const Empleado = ({rows, verEmpleado}) => {
 
     return (  
         rows.map((empleado, key) => (
@@ -22,4 +22,4 @@ const EmpleadosList = ({rows, verEmpleado}) => {
 
 }
  
-export default EmpleadosList;
+export default Empleado;

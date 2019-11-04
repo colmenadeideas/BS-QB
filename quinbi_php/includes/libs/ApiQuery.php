@@ -14,8 +14,8 @@
 			return DB::query("SELECT * FROM empleados WHERE status='activo'");
         }
 
-        public function getEgresosNomina() {	
-			return DB::query("SELECT * FROM egresos_nomina");
+        public function getAll($table) {	
+			return DB::query("SELECT * FROM ". $table);
 		}
 
 		public function search($type = "all",$string){
