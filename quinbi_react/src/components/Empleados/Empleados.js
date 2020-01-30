@@ -39,9 +39,9 @@ class Empleados extends Component {
             let row = ''
             this.state.rows.filter(emp => (
                 (emp.id === empleado.id) ? row = empleado : ''//JSON.stringify(empleado) : ''        
-                ))
+            ))
 
-                let url = `http://localhost/BS-QB/quinbi_php/html/api/employee/update`//+encodeURIComponent(row)
+            let url = `http://localhost/BS-QB/quinbi_php/html/api/employee/update`//+encodeURIComponent(row)
 
             axios.post(url, {row})
                 .then(res => {

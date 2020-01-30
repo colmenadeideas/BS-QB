@@ -66,15 +66,15 @@ class Nomina extends Component {
     nomina = (nomina) => {
         var row = this.state.rows.filter(row => (
             (row.id === nomina.id) ? row : ''
-            ))
-            var indice = this.state.rows.indexOf(row[0])
-            var rows = this.state.rows
-            rows[indice] = nomina
-            this.setState({
-                rows
-            }, () => {
-                this.verNomina(nomina)
-            })
+        ))
+        var indice = this.state.rows.indexOf(row[0])
+        var rows = this.state.rows
+        rows[indice] = nomina
+        this.setState({
+            rows
+        }, () => {
+            this.verNomina(nomina)
+        })
     }
     closePopup = () => {
         this.setState({

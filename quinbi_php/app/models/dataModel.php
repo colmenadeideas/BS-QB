@@ -14,10 +14,6 @@
 		public function getEmpleados() {	
 			return DB::query("SELECT * FROM empleado WHERE status='activo'");
         }
-        
-        public function insertEmpleado($data) {
-            
-        }
 
 		/* public function getElement($element, $id, $by = 'id') {	
 
